@@ -12,6 +12,7 @@ version = "0.0.0"
 repositories {
     mavenCentral()
     maven("https://repo.papermc.io/repository/maven-public/")
+    maven("https://maven.radsteve.net/public/")
 }
 
 dependencies {
@@ -22,6 +23,8 @@ dependencies {
     implementation("org.incendo:cloud-kotlin-coroutines:2.0.0-SNAPSHOT")
     implementation("org.apache.commons:commons-lang3:3.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.1")
+    implementation("net.radstevee.packed:packed-core:0.5.0")
+    implementation("net.radstevee.packed:packed-negative-spaces:0.5.0")
 
     paperweight.paperDevBundle("1.21.1-R0.1-SNAPSHOT")
 }
